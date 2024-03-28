@@ -22,3 +22,5 @@ urlpatterns = [
     path("", include('alunos.urls')),
     path('admin/', admin.site.urls),
 ]
+
+# TESTE
