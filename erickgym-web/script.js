@@ -8,7 +8,7 @@ async function getAlunos() {
 }
 
 async function principal() {
-    const alunos = getAlunos()
+    const alunos = await getAlunos()
 
     console.log(alunos)
 }
